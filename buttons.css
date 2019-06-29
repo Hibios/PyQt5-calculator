@@ -1,0 +1,18 @@
+﻿QLabel, QPushButton {
+    border: 1px solid red;
+    background-color: rgb(24,24,24);
+    color: white;
+}
+
+QPushButton:hover:!pressed {
+    border: 1px solid white;
+}
+
+QPushButton:pressed {
+    background: rgb(79,79,79);
+}
+
+QTextEdit {
+    background-color: rgb(24,24,24);
+    border: 1px solid red;
+}
